@@ -1,0 +1,12 @@
+.country-class {
+	margin: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: tomato;
+}
+
+#countries-id {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}

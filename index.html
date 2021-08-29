@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meal-practise</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- input  -->
+	<div id="tooltip-id" class="w-50 m-auto mt-5">
+		<h3 class="text-success text-center ">This is food Meal</h3>
+		<div class="input-group mb-3">
+			<input id="meal-input" type="text" class="form-control" placeholder="write your dish name"
+				aria-label="Recipient's username" aria-describedby="button-addon2">
+			<button id="meal-input-btn" class="btn btn-outline-secondary " type="button"
+				id="button-addon2">Button</button>
+		</div>
+	</div>
+	<!-- error handling -->
+	<div>
+		<p id="error-messege" class="text-danger text-center">Something went wrong</p>
+	</div>
+
+	<!-- add single card -->
+
+	<div id="single-card" class="  w-50 m-auto" s>
+
+	</div>
+
+	<!-- cards -->
+	<div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+	</div>
+
+	<!-- js script -->
+	<script src="js/meal-practise.js"></script>
+	<!-- Bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
